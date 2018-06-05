@@ -1,6 +1,6 @@
 public class OperacionesArtimeticas {
 
-    public int Suma(int a, int b){
+    public static int suma(int a, int b){
         return a+b;
     }
 }
