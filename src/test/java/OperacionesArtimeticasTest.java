@@ -2,23 +2,14 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-import junit.framework.Assert;
-import org.junit.Test;
-
-import org.junit.Test;
-
-import junit.framework.Assert;
-
-import org.junit.Assert;
-import org.junit.Test;
-
 public class OperacionesArtimeticasTest {
+
   @Test
   public void testDiv(){
     int expected = 0;
     int actual = OperacionesArtimeticas.div(20,0);
 
-    Assert.assertEquals(expected, actual);
+    assertEquals(expected, actual);
   }
 
     @Test
@@ -33,7 +24,7 @@ public class OperacionesArtimeticasTest {
         int b=2;
         int expectedResults= 4;
         int actualResults = OperacionesArtimeticas.Potencia(a,b);
-        Assert.assertEquals(expectedResults,actualResults);
+        assertEquals(expectedResults,actualResults);
     }
 
     @Test
@@ -42,7 +33,7 @@ public class OperacionesArtimeticasTest {
 
         int actualResult = (new OperacionesArtimeticas()).multiplicar(28,5);
 
-        Assert.assertEquals(expectedResult, actualResult);
+        assertEquals(expectedResult, actualResult);
     }
 
 }
