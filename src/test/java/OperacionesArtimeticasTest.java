@@ -7,7 +7,7 @@ public class OperacionesArtimeticasTest {
         int a=2;
         int b=2;
         int expectedResults= 4;
-        int actualResults = OperacionesArtimeticas.Potencia(a,b);
+        int actualResults = OperacionesArtimeticas.potencia(a,b);
         Assert.assertEquals(expectedResults,actualResults);
     }
 

@@ -4,7 +4,7 @@ public class OperacionesArtimeticas {
         return a+b;
     }
 
-    public static int Potencia(int a,int b){
+    public static int potencia(int a,int b){
         return (int)Math.pow(a, b);
     }
 }
