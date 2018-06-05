@@ -4,7 +4,7 @@ public class OperacionesArtimeticas {
         return a+b;
     }
 
-    public int div(int a, int b){
+    public static int div(int a, int b){
         if (a > Integer.MAX_VALUE || b > Integer.MAX_VALUE){
             System.out.println("valores muy altos");
             return 0;
