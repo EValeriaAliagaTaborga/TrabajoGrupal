@@ -9,6 +9,9 @@ import org.junit.Test;
 
 import junit.framework.Assert;
 
+import org.junit.Assert;
+import org.junit.Test;
+
 public class OperacionesArtimeticasTest {
   @Test
   public void testDiv(){
@@ -17,6 +20,7 @@ public class OperacionesArtimeticasTest {
 
     Assert.assertEquals(expected, actual);
   }
+
     @Test
     public void verificarSuma(){
         int a = 1;
@@ -30,6 +34,15 @@ public class OperacionesArtimeticasTest {
         int expectedResults= 4;
         int actualResults = OperacionesArtimeticas.Potencia(a,b);
         Assert.assertEquals(expectedResults,actualResults);
+    }
+
+    @Test
+    public void verificarMultiplicacion(){
+        int expectedResult = 140;
+
+        int actualResult = (new OperacionesArtimeticas()).multiplicar(28,5);
+
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 }
