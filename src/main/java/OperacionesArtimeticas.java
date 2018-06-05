@@ -7,5 +7,7 @@ public class OperacionesArtimeticas {
         return a-b;
     }
 
+    public static int Potencia(int a,int b){
+        return (int)Math.pow(a, b);
+    }
 }
-
